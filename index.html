@@ -77,17 +77,17 @@
             <div class="carousel-background"><img src="img/intro-carousel/7.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Editor</h2>
+                <h2>Hello, I am a Video Editor</h2>
                 <a href="#about" class="btn-get-started scrollto">Check now</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/8.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/portfolio/design10.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Graphic Designer</h2>
+                <h2>Hello, I am a Graphic Designer</h2>
                 <a href="#about" class="btn-get-started scrollto">Check now</a>
               </div>
             </div>
@@ -136,7 +136,147 @@
 
         </div>
       </div>
-    </section><!-- #featured-services -->
+    </section> -->
+    <!-- #featured-services -->
+
+    <!--==========================
+      Recent Project Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>My Recent Project</h3>
+          <p>
+            The project aims to create a captivating and dynamic motion video to introduce and launch our latest silver product. This video will blend sleek visuals with compelling narrative elements to highlight the elegance, durability, and premium quality of the silver product.
+            <br>
+            <br>
+            <a href="#recent" style="display: initial;" id="someID">See video with sound</a>  | 
+            <a href="https://www.silvergram.co.id/portal/home.do">See client website</a>
+          </p>
+        </header>
+        <script>
+          document.getElementById("someID").addEventListener("click", function() {
+              document.getElementById("videoplay1").setAttribute("style", "display:none");
+              document.getElementById("videoplay2").setAttribute("style", "display:initial");
+            });
+        </script>
+        <div class="embed-responsive embed-responsive-16by9 wow fadeInUp">
+          <video autoplay muted loop id="videoplay1">
+            <source src="vid/silvergram.mp4" type="video/mp4">
+          </video>
+          <video autoplay controls loop style="display:none;" id="videoplay2">
+            <source src="vid/silvergram.mp4" type="video/mp4">
+          </video>
+        </div>
+            
+      </div>
+    </section><!-- #recent project -->
+
+    <!--==========================
+      Motion Graphic Project Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-4">
+            <header class="section-header wow fadeInRight">
+            <h3 style="text-align: left;">Motion Graphic Designer</h3>
+            <p style="text-align: left;">
+              The project focuses on creating a concise and impactful motion outro video for an NGO, aimed at encouraging viewers to contribute to a meaningful cause. This video will serve as the closing element of various content pieces, leaving a lasting impression and motivating viewers to take immediate action.
+              <br>
+              <br>
+              <a href="#motgraph2" style="display: initial;" id="motgraphID">See video with sound</a> | 
+              <a href="https://lajupeduli.org/">See client website</a>
+            </p>
+          </header>
+          </div>
+          <div class="col-8">
+            <div class="embed-responsive embed-responsive-16by9 wow fadeInRight">
+              <video autoplay muted loop id="motgraph1">
+                <source src="vid/motgraph.mp4" type="video/mp4">
+              </video>
+              <video autoplay controls loop style="display:none;" id="motgraph2">
+                <source src="vid/motgraph.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <script>
+          document.getElementById("motgraphID").addEventListener("click", function() {
+              document.getElementById("motgraph1").setAttribute("style", "display:none");
+              document.getElementById("motgraph2").setAttribute("style", "display:initial");
+            });
+        </script>
+      </div>
+    </section><!-- #motion graphic project -->
+
+    <!--==========================
+      VFX Project Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="embed-responsive embed-responsive-16by9 wow fadeInLeft" style="padding-top: 160%;">
+              <video autoplay muted loop id="vfx1">
+                <source src="vfx.mp4" type="video/mp4">
+              </video>
+              <video autoplay controls loop style="display:none;" id="vfx2">
+                <source src="vfx.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="col-8">
+            <header class="section-header wow fadeInLeft">
+              <h3 style="text-align: right;">Visual Effects Artist</h3>
+              <p style="text-align: right;">
+                As a passionate and skilled Visual Effects (VFX) Artist, my portfolio showcases a diverse range of projects where creativity meets technical precision. Specializing in bringing imaginative concepts to life, my work spans across digital media, where I have contributed to creating visually stunning and immersive experiences.
+                <br>
+                <br>
+                <a href="#motgraph2" style="display: initial;" id="vfxID">See video with sound</a>
+              </p>
+            </header>
+            <div class="embed-responsive embed-responsive-16by9 wow fadeInLeft">
+              <video autoplay muted loop id="motgraph1">
+                <source src="vid/vfx2.mp4" type="video/mp4">
+              </video>
+              <video autoplay controls loop style="display:none;" id="motgraph2">
+                <source src="vid/vfx2.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <script>
+          document.getElementById("vfxID").addEventListener("click", function() {
+              document.getElementById("vfx1").setAttribute("style", "display:none");
+              document.getElementById("vfx2").setAttribute("style", "display:initial");
+            });
+        </script>
+      </div>
+    </section><!-- #motion graphic project -->
+
+    <!--==========================
+      Designer Section
+    ============================-->
+    <section id="designer" style="display: none;">
+      <section id="services">
+        <div class="container">
+          <header class="section-header wow fadeInUp">
+            <h3>Logo Designer</h3>
+            <p>
+              Silver product motion video launching by SILVERGRAM. <a href="#recent" style="display: initial;" id="someID">Lihat video dengan suara</a>
+              <br><a href="https://www.silvergram.co.id/portal/home.do">See client website</a>
+            </p>
+          </header>
+          <div>
+            <img src="img/portfolio/design10.jpg" class="img-fluid">
+          </div>    
+        </div>
+      </section>
+    </section>
+    <!-- #recent project -->
 
     <!--==========================
       About Me Section
@@ -207,19 +347,17 @@
           <h3>Services</h3>
         </header>
 
-        <div class="row" align-items-center>
-
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-videocam"></i></div>
             <h4 class="title"><a href="">Video Edit</a></h4>
-            <p class="description">Make your video awesome with visual effect and motion graphic</p>
+            <p class="description">Professional video editing services that enhance your footage with seamless cuts, color correction, and dynamic effects for captivating results.</p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-android-create"></i></div>
             <h4 class="title"><a href="">Design</a></h4>
-            <p class="description">Design poster, logo, and many more for your media promotion</p>
-          </div>
-          
+            <p class="description">Creative graphic design services that deliver impactful visuals, from logos to marketing materials, enhancing your brand's identity and message.</p>
+          </div>        
         </div>
 
       </div>
@@ -249,29 +387,49 @@
 
         <div class="skills-content">
 
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #A98AC0">
-              <span class="skill">After Effects <i class="val"></i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #F47B20">
-              <span class="skill">Illustrator <i class="val"></i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #88B6E1">
-              <span class="skill">Photoshop <i class="val"></i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #BE81B8">
-              <span class="skill">Premiere <i class="val"></i></span>
-            </div>
-          </div>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png" alt="Generic placeholder image" width="64px" height="64px">
+              <div class="media-body">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #A98AC0">
+                    <h5 class="mt-0 mb-1 skill">After Effects</h5><i class="val"></i>
+                  </div>
+                </div>
+                
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png?20220814183839" alt="Generic placeholder image" width="64px" height="64px">
+              <div class="media-body">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #F47B20">
+                    <h5 class="mt-0 mb-1 skill">Illustrator</h5><i class="val"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png" alt="Generic placeholder image" width="64px" height="64px">
+              <div class="media-body">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #88B6E1">
+                    <h5 class="mt-0 mb-1 skill">Photoshop</h5><i class="val"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png" alt="Generic placeholder image" width="64px" height="64px">
+              <div class="media-body">
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="background-color: #BE81B8">
+                    <h5 class="mt-0 mb-1 skill">Premiere</h5><i class="val"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
 
       </div>
@@ -326,7 +484,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">My Portfolio</h3>
+          <h3 class="section-title">My Other Work</h3>
         </header>
 
         <div class="row">
@@ -372,34 +530,6 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/design7.png" class="img-fluid" alt="">
-                <a href="img/portfolio/design7.png" data-lightbox="portfolio" data-title="Logo Yayasan Seribu Benih" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="img/portfolio/design7.png" data-lightbox="portfolio" data-title="Logo Yayasan Seribu Benih" class="link-preview" title="Preview">Logo Yayasan Seribu Benih</a></h4>
-                <p>Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/design8.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/design8.jpg" data-lightbox="portfolio" data-title="Poster Unpam Matematika" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="img/portfolio/design8.jpg" data-lightbox="portfolio" data-title="Poster Unpam Matematika" class="link-preview" title="Preview">Poster Unpam Matematika</a></h4>
-                <p>Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
                 <img src="img/portfolio/design9.jpg" class="img-fluid" alt="">
                 <a href="img/portfolio/design9.jpg" data-lightbox="portfolio" data-title="Desain Label Kemasan Galon" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
@@ -407,36 +537,6 @@
               <div class="portfolio-info">
                 <h4><a href="img/portfolio/design9.jpg" data-lightbox="portfolio" data-title="Desain Label Kemasan Galon" class="link-preview" title="Preview">Desain Label Kemasan Galon</a></h4>
                 <p>Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://drive.google.com/file/d/1adnAxep7jz_9IOi-PWf6D67jQYt2jc8T/preview" width="640" height="480"></iframe>
-                </div>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://drive.google.com/file/d/1adnAxep7jz_9IOi-PWf6D67jQYt2jc8T/preview">SILVER Launching Product</a></h4>
-                <p>Video</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe src="https://drive.google.com/file/d/1EDaky1OLVmGOLcI7Kms4ggSbkM8ok8pC/preview" width="640" height="480"></iframe>
-                </div>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://drive.google.com/file/d/1EDaky1OLVmGOLcI7Kms4ggSbkM8ok8pC/preview">EOA GOLD Motion Product</a></h4>
-                <p>Video</p>
               </div>
             </div>
           </div>
